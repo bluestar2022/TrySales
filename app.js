@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 // });
 
 mongooseHHH
-    .connect('mongodb+srv://newuser:newuser77@cluster0.nnickth.mongodb.net/?retryWrites=true&w=majority')
+    .connect('')
     .then(() => {
         app.listen(PORT, () => {
             console.log(`connection to mongo db is successful: http://localhost:${PORT}`);
